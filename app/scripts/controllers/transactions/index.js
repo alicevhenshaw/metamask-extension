@@ -221,6 +221,7 @@ class TransactionController extends EventEmitter {
 
     return txMeta
   }
+
   /**
   adds the tx gas defaults: gas && gasPrice
   @param txMeta {Object} - the txMeta object
